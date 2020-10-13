@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+background-image: url('cork.jpg');
+}
+h1{align-content: center;}
+h1{font-family: verdana}
+h1{color: white;}
+h1{letter-spacing: 4px;}
+h1{ color: white;
+    text-shadow:
+    -5px -5px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  }
+img { width: 45%;}
+img {border: 5px solid black;}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ddd }
+</style>
+<BODY>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<h1 style="font-size:70px" ><center><u>UWC APP</u></center></h1>
+<IMG STYLE="position:absolute; TOP:340px; LEFT:190px; WIDTH:400px; HEIGHT:400px" SRC="poster1.png" alt="poster1">
+<IMG STYLE="position:absolute; TOP:240px; RIGHT:30px; WIDTH:400px; HEIGHT:400px" SRC="poster2.png" alt="poster2">
+</BODY>
+</html>
